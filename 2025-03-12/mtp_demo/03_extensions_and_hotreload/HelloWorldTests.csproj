@@ -1,0 +1,35 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  
+	<!-- Enable Microsoft.Testing.Platform based runner for MSTest. -->  
+    <EnableMSTestRunner>true</EnableMSTestRunner>
+	<!-- Make your project executable. -->
+    <OutputType>Exe</OutputType>
+  
+    <TestingPlatformDotnetTestSupport>true</TestingPlatformDotnetTestSupport>
+    <TestingPlatformShowTestsFailure>true</TestingPlatformShowTestsFailure>
+  </PropertyGroup>
+
+  <ItemGroup>
+    
+    <PackageReference Include="MSTest" Version="3.8.2" />
+
+    <!-- Add hot reload extension. -->
+    <PackageReference Include="Microsoft.Testing.Extensions.HotReload" Version="1.6.2" />
+      
+    <PackageReference Include="Microsoft.Testing.Extensions.TrxReport" Version="1.6.2" />
+    <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" Version="17.13.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
+</Project>

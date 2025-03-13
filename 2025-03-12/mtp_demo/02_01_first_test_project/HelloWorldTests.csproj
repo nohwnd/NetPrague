@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- 
+    Created by:
+    dotnet new mstest -`-test-runner MSTest
+  -->
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Enable Testing.Platform. -->
+    <EnableMSTestRunner>true</EnableMSTestRunner>
+    <!-- Like Fixie, Expecto, XUnit v3. -->
+    <OutputType>Exe</OutputType>
+  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest" Version="3.8.2" />
+
+    <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" Version="17.13.1" />
+    <PackageReference Include="Microsoft.Testing.Extensions.TrxReport" Version="1.6.2" />
+
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
+</Project>

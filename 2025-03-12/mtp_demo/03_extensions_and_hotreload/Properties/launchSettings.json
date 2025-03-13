@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HelloWorldTests": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "TESTINGPLATFORM_HOTRELOAD_ENABLED": "1"
+      }
+    }
+  }
+}

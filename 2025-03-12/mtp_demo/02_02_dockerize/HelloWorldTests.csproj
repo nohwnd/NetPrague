@@ -1,0 +1,86 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <EnableMSTestRunner>true</EnableMSTestRunner>
+    <OutputType>Exe</OutputType>
+
+    <!-- 
+      docs: https://learn.microsoft.com/en-us/dotnet/core/docker/publish-as-container 
+      dotnet publish /t:PublishContainer -tl:false
+      docker run helloworldtests
+    -->
+    <IsPublishable>true</IsPublishable>
+    <EnableSdkContainerSupport>true</EnableSdkContainerSupport>
+  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest" Version="3.8.2" />
+
+    <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" Version="17.13.1" />
+    <PackageReference Include="Microsoft.Testing.Extensions.TrxReport" Version="1.6.2" />
+
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <ItemGroup>
+      <!-- Customize output dir and hide telemetry notification. -->
+      <ContainerEnvironmentVariable Include="DOTNET_CLI_TELEMETRY_OPTOUT" Value="1"></ContainerEnvironmentVariable>
+      <ContainerEnvironmentVariable Include="platformOptions__resultDirectory" Value="/tmp/TestResults"></ContainerEnvironmentVariable>
+    </ItemGroup>
+
+
+
+
+</Project>
