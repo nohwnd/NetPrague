@@ -2,18 +2,23 @@
 
 # .NET Meetup in Prague
 
-.NET Meetup in Prague organized by Microsoft and me. Find our latest event at <http://aka.ms/DotnetMeetupPrague>.
+.NET Meetup in Prague organized by Microsoft and me. Find our latest events at <https://www.meetup.com/microsoft-events-in-prague/>.
 
 Reach out if you are interested in speaking at our event via DotnetMeetupPrague@microsoft.com
 
-> 🔥 Next event coming in May 2025!
+> 🔥 Next event coming in July 2025!
+
+## May 27 2025 - Talk .NET with .NET Team: May
+
+- Dotnet Aspire and Open Telemetry - Vladyslav Horbachov (Microsoft)
+- MSTest: Unlock its full potential! - Youssef Fahmy (Microsoft)
+- HttpClient & performance - Miha Zupan (Microsoft)
 
 ## March 12 2025 - Talk .NET with .NET Team: March
 
 - .NET runtime on mobile: Swift interop - Milos Kotlar (Microsoft)
 - Microsoft.Testing.Platform – Jakub Jares (Microsoft)
 - .NET networking from Framework dawn to the distant future - Tomas Weinfurt (Microsoft)
-n
 
 ## Dec 11 2024 - Talk .NET with .NET Team
 
