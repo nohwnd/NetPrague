@@ -6,7 +6,19 @@
 
 Reach out if you are interested in speaking at our event via DotnetMeetupPrague@microsoft.com
 
-> 🔥 Next event coming in July 2025!
+> 🔥 Next event coming in February 2026!
+
+## December 8 2025 - Talk .NET with .NET Team: December
+
+- .NET Build Performance: Principles and Tips - Jan Provaznik (Microsoft)
+- On-Demand Log Emission with Log Buffering in .NET - Evgenii Fedorov (Microsoft)
+- File-Based Apps in .NET 10 - Jan Jones (Microsoft)
+
+## September 3 2025 - Talk .NET with .NET Team: September
+
+- .NET OCR & Computer Vision: Accelerate Efficiency and Innovation  - Danil Tkachenko (NN)
+- Log Sampling in .NET: Faster, Leaner, Smarter Logging  - Evgenii Fedorov (Microsoft)
+- C# source generators and how we abuse / leverage them in .NET MAUI - Simon Rozsival (Microsoft)
 
 ## May 27 2025 - Talk .NET with .NET Team: May
 
