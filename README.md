@@ -8,6 +8,12 @@ Reach out if you are interested in speaking at our event via DotnetMeetupPrague@
 
 > 🔥 Next event coming in February 2026!
 
+## May 28 2026 - Talk .NET with .NET Team: May 2026 Edition
+
+- Less Noise, More Magic: What's New in .NET MAUI 10 and Beyond - Kirill Ovchinnikov (Microsoft)
+- Introduction to dotnet/skills and infra behind it - Jan Krivanek (Microsoft)
+- Your Process Code Hangs. Here's Why (and How .NET 11 Fixes It) - Youssef Fahmy (Microsoft)
+
 ## December 8 2025 - Talk .NET with .NET Team: December
 
 - .NET Build Performance: Principles and Tips - Jan Provaznik (Microsoft)
